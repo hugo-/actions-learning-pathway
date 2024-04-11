@@ -43,7 +43,7 @@ jobs:
           with:
             token: ${{ secrets.GITHUB_TOKEN }}
         - name: use nodejs
-          uses: actions/setup-mode@v3
+          uses: actions/setup-node@v3
           with:
             node-version: '18.x'
         - name: configure pages
